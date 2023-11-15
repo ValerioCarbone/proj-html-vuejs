@@ -1,6 +1,6 @@
 <script>
-import headerNavbar from './headerNavbar.vue';
-import headerHero from './headerHero.vue';
+import headerNavbar from './headerComponents/headerNavbar.vue';
+import headerHero from './headerComponents/headerHero.vue';
 export default {
     components: {
         headerNavbar,

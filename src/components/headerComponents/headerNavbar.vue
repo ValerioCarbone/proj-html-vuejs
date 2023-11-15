@@ -46,7 +46,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../style/partials/variables' as *;
+@use '../../style/partials/variables' as *;
 
 .container {
     max-width: 1780px;
