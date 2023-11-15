@@ -4,4 +4,6 @@
 
 <template></template>
 
-<style ></style>
+<style lang="scss">
+@use'./style/generals.scss'
+</style>
