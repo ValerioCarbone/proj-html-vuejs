@@ -13,10 +13,26 @@ export default {
                 </figure>
                 <div class="nav-menu">
                     <ul class="nav-items">
-                        <li class="nav-item home">Home</li>
-                        <li class="nav-item">About</li>
-                        <li class="nav-item">Departments</li>
-                        <li class="nav-item">Articles</li>
+                        <li class="nav-item home">
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                Departments
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                Articles
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a href="#" class="nav-btn">
                                 Make appointment
