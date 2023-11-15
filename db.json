@@ -3,22 +3,22 @@
         {
             "iconPath": "/icon-1.png",
             "cardTitle": "Same day appointments",
-            "cardText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, libero repudiandae."
+            "cardText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, odit sapiente!"
         },
         {
             "iconPath": "/icon-2.png",
             "cardTitle": "World class facilities",
-            "cardText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, libero repudiandae."
+            "cardText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, odit sapiente!"
         },
         {
             "iconPath": "/icon-3.png",
             "cardTitle": "Expert doctors",
-            "cardText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, libero repudiandae."
+            "cardText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, odit sapiente!"
         },
         {
             "iconPath": "/icon-4.png",
             "cardTitle": "Complementary therapies",
-            "cardText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, libero repudiandae."
+            "cardText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, odit sapiente!"
         }
     ]
 }

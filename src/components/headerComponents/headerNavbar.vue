@@ -71,7 +71,7 @@ export default {
 }
 
 .main-color {
-    color: $main-color;
+    color: $light-blue;
 }
 
 .btn {
@@ -80,6 +80,6 @@ export default {
 }
 
 .btn-mainc {
-    background-color: $main-color;
+    background-color: $light-blue;
 }
 </style>

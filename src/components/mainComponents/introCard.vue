@@ -13,26 +13,36 @@ export default {
 <template>
     <div class="card">
         <img class="card-img" :src="card.iconPath">
-        <h3 class="card-title">{{ card.cardTitle }}</h3>
+        <h4 class="card-title">{{ card.cardTitle }}</h4>
         <p class="card-content">{{ card.cardText }}</p>
     </div>
 </template>
 
 <style lang="scss" scoped>
+@use '../../style/partials/variables' as *;
+
 .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding: 0 10px;
+    color: $dark-blue;
 }
 
-// .card-img{
+.card-img {
+    width: 25%;
+}
 
-// }
+.card-title {
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
-// .card-title{
-
-// }
-
-// .card-content{
-
-// }
+.card-content {
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    color: $light-grey;
+}
 </style>

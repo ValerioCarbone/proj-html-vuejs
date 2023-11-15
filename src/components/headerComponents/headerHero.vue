@@ -29,7 +29,7 @@ export default {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     height: 100%;
 }
@@ -50,11 +50,11 @@ export default {
 }
 
 .btn-mainc {
-    background-color: $main-color;
+    background-color: $light-blue;
 }
 
 .main-color {
-    color: $main-color;
+    color: $light-blue;
 }
 
 .color-white {
