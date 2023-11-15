@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <nav>
+    <nav class="header-navbar">
         <div class="container">
             <div class="row">
                 <figure>
@@ -13,7 +13,7 @@ export default {
                 </figure>
                 <div class="nav-menu">
                     <ul class="nav-items">
-                        <li class="nav-item home">
+                        <li class="nav-item main-color">
                             <a href="#">
                                 Home
                             </a>
@@ -34,7 +34,7 @@ export default {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-btn">
+                            <a href="#" class="btn btn-mainc">
                                 Make appointment
                             </a>
                         </li>
@@ -60,10 +60,6 @@ export default {
     align-items: center;
 }
 
-// .nav-menu {
-
-// }
-
 .nav-items {
     color: white;
     display: flex;
@@ -74,14 +70,16 @@ export default {
     letter-spacing: 2px;
 }
 
-.home {
+.main-color {
     color: $main-color;
 }
 
-.nav-btn {
+.btn {
     padding: 10px 24px;
-    background-color: $main-color;
+    text-transform: uppercase;
 }
 
-.nav-item {}
+.btn-mainc {
+    background-color: $main-color;
+}
 </style>

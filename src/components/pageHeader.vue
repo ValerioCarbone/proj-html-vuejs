@@ -1,10 +1,10 @@
 <script>
 import headerNavbar from './headerNavbar.vue';
-// import headerCta from './headerCta.vue';
+import headerHero from './headerHero.vue';
 export default {
     components: {
         headerNavbar,
-        // headerCta
+        headerHero
     }
 }
 </script>
@@ -12,7 +12,7 @@ export default {
 <template>
     <header class="page-header">
         <headerNavbar />
-        <!-- <headerCta /> -->
+        <headerHero />
     </header>
 </template>
 
@@ -20,6 +20,9 @@ export default {
 .page-header {
     height: 926px;
     background-image: url('/header-image-homepage.jpg');
-    background-size: cover
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
 }
 </style>
