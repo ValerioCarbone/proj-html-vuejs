@@ -1,9 +1,9 @@
 <script>
-// import headerNavbar from './headerNavbar.vue';
+import headerNavbar from './headerNavbar.vue';
 // import headerCta from './headerCta.vue';
 export default {
     components: {
-        // headerNavbar,
+        headerNavbar,
         // headerCta
     }
 }
@@ -11,7 +11,7 @@ export default {
 
 <template>
     <header class="page-header">
-        <!-- <headerNavbar /> -->
+        <headerNavbar />
         <!-- <headerCta /> -->
     </header>
 </template>
