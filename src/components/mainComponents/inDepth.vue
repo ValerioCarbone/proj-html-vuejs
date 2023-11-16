@@ -9,21 +9,21 @@ export default {}
             <img src="/wave-divider.png">
             <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga vel provident ea facere
                 nesciunt blanditiis asperiores.</p>
-            <button class="btn">Learn More</button>
+            <a href="#" class="btn">Learn More</a>
         </div>
         <div class="card col-4 white bg-blue">
             <h3 class="title">Expert Diagnostics</h3>
             <img src="/wave-divider.png">
             <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga vel provident ea facere
                 nesciunt blanditiis asperiores.</p>
-            <button class="btn">Learn More</button>
+            <a href="#" class="btn">Learn More</a>
         </div>
         <div class="card col-4 white bg-dark-blue">
             <h3 class="title">Superb Rehabilitation</h3>
             <img src="/wave-divider.png">
             <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga vel provident ea facere
                 nesciunt blanditiis asperiores.</p>
-            <button class="btn">Learn More</button>
+            <a href="#" class="btn">Learn More</a>
         </div>
     </div>
 </template>
