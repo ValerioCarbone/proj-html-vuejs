@@ -19,7 +19,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../../style/partials/variables' as *;
+@use '../../../style/partials/variables' as *;
 
 .card {
     display: flex;
@@ -42,7 +42,7 @@ export default {
 .card-content {
     text-align: center;
     font-size: 14px;
-    line-height: 28px;
+    line-height: 36px;
     color: $light-grey;
 }
 </style>

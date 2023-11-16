@@ -1,10 +1,13 @@
 <script>
-import mainIntro from './mainComponents/mainIntro.vue'
-import mainTeam from './mainComponents/mainTeam.vue'
+import mainIntro from './mainComponents/Intro.vue'
+import mainTeam from './mainComponents/team.vue'
+import mainServices from './mainComponents/Services.vue'
 export default {
     components: {
         mainIntro,
-        mainTeam
+        mainTeam,
+        mainServices
+
     }
 }
 
@@ -16,9 +19,14 @@ export default {
             <mainIntro />
         </div>
     </div>
-    <div class="section">
+    <div class="section dark-white">
         <div class="container">
             <mainTeam />
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <mainServices />
         </div>
     </div>
 </template>
@@ -27,7 +35,7 @@ export default {
 @use '../style/partials/variables' as *;
 
 .section {
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 .container {

@@ -40,5 +40,37 @@
             "teamMemberRole": "Nurse Practioner",
             "teamMemberDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laudantium dolor mollitia architecto sunt, inventore commodi."
         }
+    ],
+    "serviceCards": [
+        {
+            "serviceIconPath": "/icon-11.png",
+            "serviceName": "Rehabilitation Center",
+            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+        },
+        {
+            "serviceIconPath": "/icon-12.png",
+            "serviceName": "Dental Implants",
+            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+        },
+        {
+            "serviceIconPath": "/icon-13.png",
+            "serviceName": "Medicine Research",
+            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+        },
+        {
+            "serviceIconPath": "/icon-14.png",
+            "serviceName": "Blood Bank",
+            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+        },
+        {
+            "serviceIconPath": "/icon-15.png",
+            "serviceName": "Pharmaceutical Advice",
+            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+        },
+        {
+            "serviceIconPath": "/icon-16.png",
+            "serviceName": "Medical Consueling",
+            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+        }
     ]
 }

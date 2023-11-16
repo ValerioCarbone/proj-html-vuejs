@@ -1,9 +1,9 @@
 <script>
 import database from '../../../db.json'
-import card from './introCard.vue'
+import introCard from './cards/introCard.vue'
 export default {
     components: {
-        card
+        introCard
     },
     data() {
         return {
@@ -28,7 +28,7 @@ export default {
                 delectus fuga soluta.</p>
         </div>
         <div class="cards">
-            <card v-for="(card, index) in cards" :key="index" :card="card" />
+            <introCard v-for="(card, index) in cards" :key="index" :card="card" />
         </div>
     </div>
 </template>

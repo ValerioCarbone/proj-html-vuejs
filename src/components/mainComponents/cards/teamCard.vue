@@ -41,7 +41,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../../style/partials/variables' as *;
+@use '../../../style/partials/variables' as *;
 
 .facebook {
     background-color: $fb-blue;
@@ -95,5 +95,6 @@ export default {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+    background-color: white;
 }
 </style>

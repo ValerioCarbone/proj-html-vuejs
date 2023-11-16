@@ -1,6 +1,6 @@
 <script>
 import database from '../../../db.json'
-import teamCard from './teamCard.vue'
+import teamCard from './cards/teamCard.vue'
 export default {
     components: {
         teamCard
@@ -61,7 +61,8 @@ export default {
     font-size: 44px;
     font-weight: 300;
     line-height: 40px;
-    padding-bottom: 20px;
+    padding: 20px 0;
+    text-transform: uppercase;
 }
 
 .title-container {
@@ -85,7 +86,7 @@ export default {
 
 .icon {
     aspect-ratio: 1;
-    height: 67px;
+    height: 80px;
 }
 
 .dark-blue {
