@@ -9,21 +9,21 @@ export default {}
             <img src="/wave-divider.png">
             <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga vel provident ea facere
                 nesciunt blanditiis asperiores.</p>
-            <a href="#" class="btn">Learn More</a>
+            <a href="#" class="btn btn-lb">Learn More</a>
         </div>
         <div class="card col-4 white bg-blue">
             <h3 class="title">Expert Diagnostics</h3>
             <img src="/wave-divider.png">
             <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga vel provident ea facere
                 nesciunt blanditiis asperiores.</p>
-            <a href="#" class="btn">Learn More</a>
+            <a href="#" class="btn btn-b">Learn More</a>
         </div>
         <div class="card col-4 white bg-dark-blue">
             <h3 class="title">Superb Rehabilitation</h3>
             <img src="/wave-divider.png">
             <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga vel provident ea facere
                 nesciunt blanditiis asperiores.</p>
-            <a href="#" class="btn">Learn More</a>
+            <a href="#" class="btn btn-db">Learn More</a>
         </div>
     </div>
 </template>
@@ -36,7 +36,7 @@ button {
 }
 
 .card {
-    padding: 80px 20px;
+    padding: 80px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,6 +61,24 @@ button {
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 2px;
+}
+
+.btn-lb:hover {
+    border: 3px solid $bg-blue;
+    color: $bg-blue;
+    background-color: white;
+}
+
+.btn-b:hover {
+    border: 3px solid $bg-dark-blue;
+    color: $bg-dark-blue;
+    background-color: white;
+}
+
+.btn-db:hover {
+    border: 3px solid $light-blue;
+    color: $light-blue;
+    background-color: white;
 }
 
 .bg-light-blue {

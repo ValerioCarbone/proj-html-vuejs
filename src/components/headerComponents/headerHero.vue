@@ -45,12 +45,16 @@ export default {
 }
 
 .btn {
-    padding: 10px 24px;
+    padding: 10px 28px;
     text-transform: uppercase;
 }
 
 .btn-mainc {
     background-color: $light-blue;
+
+    &:hover {
+        background-color: $bg-dark-blue;
+    }
 }
 
 .main-color {

@@ -32,6 +32,10 @@ export default {
     row-gap: 20px;
     padding: 0 16px;
     color: $dark-blue;
+
+    &:hover .card-title {
+        color: $light-blue;
+    }
 }
 
 .card-img {

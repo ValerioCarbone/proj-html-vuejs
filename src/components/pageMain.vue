@@ -1,10 +1,12 @@
 <script>
-import mainIntro from './mainComponents/Intro.vue'
+import mainIntro from './mainComponents/intro.vue'
 import mainTeam from './mainComponents/team.vue'
-import mainServices from './mainComponents/Services.vue'
+import mainServices from './mainComponents/services.vue'
 import mainTour from './mainComponents/tour.vue'
 import mainInDepth from './mainComponents/inDepth.vue'
 import mainAppointment from './mainComponents/appointment.vue'
+import mainSlider from './mainComponents/slider.vue'
+
 
 export default {
     components: {
@@ -13,7 +15,8 @@ export default {
         mainServices,
         mainTour,
         mainInDepth,
-        mainAppointment
+        mainAppointment,
+        mainSlider
 
     }
 }
@@ -47,13 +50,18 @@ export default {
             <mainAppointment />
         </div>
     </div>
+    <div class="section slider-bg">
+        <div class="container">
+            <mainSlider />
+        </div>
+    </div>
 </template>
 
 <style lang="scss" scoped>
 @use '../style/partials/variables' as *;
 
 .section {
-    padding: 120px 0;
+    padding: 140px 0;
 }
 
 .container {
@@ -69,9 +77,16 @@ export default {
 .tour-bg {
     background-image: url('/paralax-bg-tour-facilities.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 .appointment-bg {
     background-image: url('/make-an-appointment.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.slider-bg {
+    background-image: url('/rgb-gradient-bar-for-logo-carrasel.jpg');
 }
 </style>
