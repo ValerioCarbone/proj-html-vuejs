@@ -3,12 +3,15 @@ import mainIntro from './mainComponents/Intro.vue'
 import mainTeam from './mainComponents/team.vue'
 import mainServices from './mainComponents/Services.vue'
 import mainTour from './mainComponents/tour.vue'
+import mainInDepth from './mainComponents/inDepth.vue'
+
 export default {
     components: {
         mainIntro,
         mainTeam,
         mainServices,
-        mainTour
+        mainTour,
+        mainInDepth
 
     }
 }
@@ -36,6 +39,7 @@ export default {
             <mainTour />
         </div>
     </div>
+    <mainInDepth />
 </template>
 
 <style lang="scss" scoped>
