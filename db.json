@@ -72,5 +72,12 @@
             "serviceName": "Medical Consueling",
             "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
         }
+    ],
+    "departments": [
+        "Cardiology",
+        "Pediatrics",
+        "Diabetes Care",
+        "Pre-natal Care",
+        "Ultrasound Echocardiogram"
     ]
 }
