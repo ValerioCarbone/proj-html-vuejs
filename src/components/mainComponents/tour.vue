@@ -1,37 +1,20 @@
 <script>
-import database from '../../../db.json'
-import teamCard from './cards/teamCard.vue'
 export default {
-    components: {
-        teamCard
-    },
-    data() {
-        return {
-            database
-        }
-    },
-    computed: {
-        teamCards() {
-            return this.database.teamCards
-        }
-    }
 }
 </script>
 
 <template>
     <div class="row">
         <div class="section-content">
-            <img src="/icon-5.png" class="icon">
+            <img src="/icon-7.png" class="icon">
             <div class="title-container">
-                <h2 class="title dark-blue">Meet our doctors</h2>
+                <h2 class="title white">Tour Our Facilities</h2>
             </div>
-            <p class="description dark-blue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, quaerat?
+            <p class="description white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, quaerat?
                 Voluptatem
                 velit omnis consequatur incidunt quisquam debitis, suscipit quibusdam eos quod eveniet optio! Distinctio,
                 quaerat? Cumque voluptate error repellat animi!</p>
-        </div>
-        <div class="cards">
-            <teamCard v-for="(card, index) in teamCards" :key="index" :card="card" />
+            <img src="/play-icon.png" class="icon play">
         </div>
     </div>
 </template>
@@ -42,13 +25,8 @@ export default {
 .row {
     display: flex;
     flex-direction: column;
-    row-gap: 80px;
 }
 
-.cards {
-    display: flex;
-
-}
 
 .section-content {
     text-align: center;
@@ -81,7 +59,7 @@ export default {
 .description {
     padding-top: 20px;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .icon {
@@ -89,11 +67,11 @@ export default {
     height: 80px;
 }
 
-.dark-blue {
-    color: $dark-blue;
+.white {
+    color: white;
 }
 
-.light-grey {
-    color: $light-grey;
+.play {
+    margin-top: 40px;
 }
 </style>
