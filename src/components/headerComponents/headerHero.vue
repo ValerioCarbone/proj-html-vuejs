@@ -63,7 +63,7 @@ export default {
 
 .hero-title {
     font-size: 60px;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 4px;
     white-space: pre-wrap;
 }
