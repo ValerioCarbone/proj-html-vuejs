@@ -54,7 +54,7 @@ export default {
 
 .section-content {
     text-align: center;
-    width: 690px;
+    max-width: 690px;
     margin: 0 auto;
 }
 

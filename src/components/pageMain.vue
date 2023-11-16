@@ -4,6 +4,7 @@ import mainTeam from './mainComponents/team.vue'
 import mainServices from './mainComponents/Services.vue'
 import mainTour from './mainComponents/tour.vue'
 import mainInDepth from './mainComponents/inDepth.vue'
+import mainAppointment from './mainComponents/appointment.vue'
 
 export default {
     components: {
@@ -11,7 +12,8 @@ export default {
         mainTeam,
         mainServices,
         mainTour,
-        mainInDepth
+        mainInDepth,
+        mainAppointment
 
     }
 }
@@ -40,6 +42,11 @@ export default {
         </div>
     </div>
     <mainInDepth />
+    <div class="section appointment-bg">
+        <div class="container">
+            <mainAppointment />
+        </div>
+    </div>
 </template>
 
 <style lang="scss" scoped>
@@ -62,5 +69,9 @@ export default {
 .tour-bg {
     background-image: url('/paralax-bg-tour-facilities.jpg');
     background-position: center;
+}
+
+.appointment-bg {
+    background-image: url('/make-an-appointment.jpg');
 }
 </style>

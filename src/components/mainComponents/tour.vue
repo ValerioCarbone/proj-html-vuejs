@@ -30,7 +30,7 @@ export default {
 
 .section-content {
     text-align: center;
-    width: 690px;
+    max-width: 690px;
     margin: 0 auto;
 }
 
@@ -58,8 +58,9 @@ export default {
 
 .description {
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 50px;
+    font-weight: 300;
 }
 
 .icon {
