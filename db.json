@@ -1,5 +1,5 @@
 {
-    "cards": [
+    "introCards": [
         {
             "iconPath": "/icon-1.png",
             "cardTitle": "Same day appointments",
@@ -19,6 +19,26 @@
             "iconPath": "/icon-4.png",
             "cardTitle": "Complementary therapies",
             "cardText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, odit sapiente!"
+        }
+    ],
+    "teamCards": [
+        {
+            "teamMemberImgPath": "/doctor-1.jpg",
+            "teamMemberName": "Jon Snow",
+            "teamMemberRole": "Anesthesiologist",
+            "teamMemberDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laudantium dolor mollitia architecto sunt, inventore commodi."
+        },
+        {
+            "teamMemberImgPath": "/doctor-2.jpg",
+            "teamMemberName": "Tony Stark",
+            "teamMemberRole": "Cardiologist",
+            "teamMemberDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laudantium dolor mollitia architecto sunt, inventore commodi."
+        },
+        {
+            "teamMemberImgPath": "/doctor-3.jpg",
+            "teamMemberName": "Anna Smith",
+            "teamMemberRole": "Nurse Practioner",
+            "teamMemberDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laudantium dolor mollitia architecto sunt, inventore commodi."
         }
     ]
 }

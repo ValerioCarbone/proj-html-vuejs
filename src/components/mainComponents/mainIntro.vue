@@ -12,11 +12,8 @@ export default {
     },
     computed: {
         cards() {
-            return this.database.cards
+            return this.database.introCards
         }
-    },
-    mounted() {
-        console.log(this.database.cards)
     }
 }
 
@@ -47,7 +44,6 @@ export default {
 
 .cards {
     display: flex;
-    padding: 0 10px;
 }
 
 .section-content {

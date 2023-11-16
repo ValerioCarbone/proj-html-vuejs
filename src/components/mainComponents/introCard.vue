@@ -26,7 +26,7 @@ export default {
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
-    padding: 0 10px;
+    padding: 0 16px;
     color: $dark-blue;
 }
 
@@ -35,7 +35,7 @@ export default {
 }
 
 .card-title {
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
