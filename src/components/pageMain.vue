@@ -50,7 +50,7 @@ export default {
             <mainAppointment />
         </div>
     </div>
-    <div class="section slider-bg">
+    <div class="section-sm slider-bg">
         <div class="container">
             <mainSlider />
         </div>
@@ -62,6 +62,10 @@ export default {
 
 .section {
     padding: 140px 0;
+}
+
+.section-sm {
+    padding: 80px 0;
 }
 
 .container {
@@ -88,5 +92,6 @@ export default {
 
 .slider-bg {
     background-image: url('/rgb-gradient-bar-for-logo-carrasel.jpg');
+    background-size: cover;
 }
 </style>
