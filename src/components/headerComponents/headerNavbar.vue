@@ -13,7 +13,7 @@ export default {
                 </figure>
                 <div class="nav-menu">
                     <ul class="nav-items">
-                        <li class="nav-item main-color">
+                        <li class="nav-item">
                             <a href="#">
                                 Home
                             </a>
@@ -23,9 +23,12 @@ export default {
                                 About
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item drop-down">
                             <a href="#">
                                 Departments
+                                <span class="drop-down-icon">
+                                    <font-awesome-icon icon="fa-solid fa-angle-down" />
+                                </span>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -34,7 +37,7 @@ export default {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="btn btn-mainc">
+                            <a href="#" class="btn btn-lb">
                                 Make appointment
                             </a>
                         </li>
@@ -70,7 +73,7 @@ export default {
     letter-spacing: 2px;
 }
 
-.main-color {
+.nav-item:hover {
     color: $light-blue;
 }
 
@@ -79,7 +82,21 @@ export default {
     text-transform: uppercase;
 }
 
-.btn-mainc {
+.btn-lb {
     background-color: $light-blue;
+
+    &:hover {
+        color: $light-blue;
+        background-color: white;
+    }
+}
+
+
+.drop-down-icon {
+    display: none;
+}
+
+.drop-down:hover .drop-down-icon {
+    display: inline-block;
 }
 </style>
