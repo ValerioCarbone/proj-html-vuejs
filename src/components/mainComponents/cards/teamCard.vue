@@ -45,17 +45,17 @@ export default {
 
 .facebook {
     background-color: $fb-blue;
-    padding: 4px 8px;
+    padding: 6px 10px;
 }
 
 .twitter {
     background-color: $twitter-lb;
-    padding: 4px 5px;
+    padding: 6px 7px;
 }
 
 .instagram {
     background-color: $ig-blue;
-    padding: 4px 6px;
+    padding: 6px 8px;
 }
 
 .dark-blue {
