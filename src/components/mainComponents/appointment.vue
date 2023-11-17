@@ -30,6 +30,12 @@ export default {
 <style lang="scss" scoped>
 @use'../../style/partials/variables' as *;
 
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+
 .row {
     display: flex;
 }

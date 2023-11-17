@@ -39,7 +39,7 @@ export default {
                                 About
                             </a>
                         </li>
-                        <li class="nav-item drop-down" @click="show()">
+                        <li class="nav-item drop-down" @click="show()" :class="showDropDown ? 'light-blue' : ''">
                             <a href="#">
                                 Departments
                                 <span v-if="showDropDown" class="drop-down-icon">
@@ -114,7 +114,7 @@ export default {
     }
 }
 
-.drop-down:hover .drop-down-icon {
+.drop-down-icon {
     display: inline-block;
 }
 
@@ -140,5 +140,9 @@ export default {
     &:hover {
         color: $light-blue;
     }
+}
+
+.light-blue {
+    color: $light-blue;
 }
 </style>
