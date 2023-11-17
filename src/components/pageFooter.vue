@@ -1,9 +1,9 @@
 <script>
 import database from '../../db.json'
-import departmentCard from './footerComponents/cards/departmentCard.vue'
+import department from './footerComponents/department.vue'
 export default {
     components: {
-        departmentCard
+        department
     },
     data() {
         return {
@@ -74,7 +74,7 @@ export default {
             <div class="col-4 row column">
                 <h3 class="title">Medical Departments</h3>
                 <div class="row column departments">
-                    <departmentCard v-for="(department, index) in departments" :key="index" :department="department" />
+                    <department v-for="(department, index) in departments" :key="index" :department="department" />
                 </div>
                 <a href="#" class="btn">View our departments</a>
             </div>

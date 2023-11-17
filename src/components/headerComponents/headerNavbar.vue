@@ -1,6 +1,22 @@
 <script>
-
+import database from '../../../db.json'
 export default {
+    data() {
+        return {
+            showDropDown: false,
+            database
+        }
+    },
+    methods: {
+        show() {
+            this.showDropDown = !this.showDropDown
+        }
+    },
+    computed: {
+        departments() {
+            return this.database.departments
+        }
+    }
 }
 </script>
 
@@ -23,12 +39,19 @@ export default {
                                 About
                             </a>
                         </li>
-                        <li class="nav-item drop-down">
+                        <li class="nav-item drop-down" @click="show()">
                             <a href="#">
                                 Departments
-                                <span class="drop-down-icon">
+                                <span v-if="showDropDown" class="drop-down-icon">
                                     <font-awesome-icon icon="fa-solid fa-angle-down" />
                                 </span>
+                                <div>
+                                    <ul v-if="showDropDown" class="drop-down-wrapper">
+                                        <li v-for="(department, index) in departments" :key="index" class="drop-down-item">
+                                            <a href="#">{{ department }}</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -91,12 +114,30 @@ export default {
     }
 }
 
-
-.drop-down-icon {
-    display: none;
-}
-
 .drop-down:hover .drop-down-icon {
     display: inline-block;
+}
+
+.drop-down {
+    position: relative;
+}
+
+.drop-down-wrapper {
+    background-color: white;
+    padding: 6px 14px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 200px;
+}
+
+.drop-down-item {
+    padding: 8px 0;
+    text-transform: capitalize;
+    color: $dark-blue;
+
+    &:hover {
+        color: $light-blue;
+    }
 }
 </style>
