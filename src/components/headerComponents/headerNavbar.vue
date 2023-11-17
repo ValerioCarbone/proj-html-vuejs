@@ -42,7 +42,7 @@ export default {
                         <li class="nav-item drop-down" @click="show()" :class="showDropDown ? 'light-blue' : ''">
                             <a href="#">
                                 Departments
-                                <span v-if="showDropDown" class="drop-down-icon">
+                                <span class="drop-down-icon">
                                     <font-awesome-icon icon="fa-solid fa-angle-down" />
                                 </span>
                                 <div>
@@ -132,7 +132,7 @@ export default {
 }
 
 .drop-down-item {
-    padding: 8px 0;
+    padding: 12px 0;
     text-transform: capitalize;
     color: $dark-blue;
     font-size: 14px;
