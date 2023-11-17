@@ -56,7 +56,7 @@ export default {
     background: none;
     border: 1px solid $lighter-grey;
     color: $lighter-grey;
-    font-size: 12px;
+    font-size: 14px;
     padding: 12px 10px;
 }
 

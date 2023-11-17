@@ -43,6 +43,10 @@ export default {
 <style lang="scss" scoped>
 @use '../../../style/partials/variables' as *;
 
+.member-description {
+    line-height: 32px;
+}
+
 .facebook {
     background-color: $fb-blue;
     padding: 6px 10px;

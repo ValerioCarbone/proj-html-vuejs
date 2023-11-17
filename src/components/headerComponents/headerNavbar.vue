@@ -135,6 +135,7 @@ export default {
     padding: 8px 0;
     text-transform: capitalize;
     color: $dark-blue;
+    font-size: 14px;
 
     &:hover {
         color: $light-blue;
