@@ -14,14 +14,14 @@ export default {
             quaerat? Cumque voluptate error repellat animi!</p>
         <form action="post" class="row column form">
             <div class="input-section row">
-                <input type="text" placeholder="Name*" class="col-6 input input-style">
-                <input type="email" placeholder="Email*" class="col-6 input input-style">
+                <input type="text" placeholder="Name*" class="col-6 input input-style" required>
+                <input type="email" placeholder="Email*" class="col-6 input input-style" required>
             </div>
             <div class="input-section row">
                 <input type="tel" placeholder="Phone Number" class="col-6 input input-style">
                 <input type="date" required pattern="\d{2}-\d{2}-\d{4}" class="col-6 input date input-style">
             </div>
-            <textarea placeholder="How can we help?*" cols="30" rows="7" class="textarea input-style "></textarea>
+            <textarea placeholder="How can we help?*" cols="30" rows="7" class="textarea input-style " required></textarea>
             <button type="submit" class="btn-lb">Make an appointment</button>
         </form>
     </div>
