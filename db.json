@@ -43,34 +43,34 @@
     ],
     "serviceCards": [
         {
-            "serviceIconPath": "/icon-11.png",
-            "serviceName": "Rehabilitation Center",
-            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+            "iconPath": "/icon-11.png",
+            "cardTitle": "Rehabilitation Center",
+            "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
         },
         {
-            "serviceIconPath": "/icon-12.png",
-            "serviceName": "Dental Implants",
-            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+            "iconPath": "/icon-12.png",
+            "cardTitle": "Dental Implants",
+            "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
         },
         {
-            "serviceIconPath": "/icon-13.png",
-            "serviceName": "Medicine Research",
-            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+            "iconPath": "/icon-13.png",
+            "cardTitle": "Medicine Research",
+            "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
         },
         {
-            "serviceIconPath": "/icon-14.png",
-            "serviceName": "Blood Bank",
-            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+            "iconPath": "/icon-14.png",
+            "cardTitle": "Blood Bank",
+            "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
         },
         {
-            "serviceIconPath": "/icon-15.png",
-            "serviceName": "Pharmaceutical Advice",
-            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+            "iconPath": "/icon-15.png",
+            "cardTitle": "Pharmaceutical Advice",
+            "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
         },
         {
-            "serviceIconPath": "/icon-16.png",
-            "serviceName": "Medical Consueling",
-            "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
+            "iconPath": "/icon-16.png",
+            "cardTitle": "Medical Consueling",
+            "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
         }
     ],
     "departments": [
