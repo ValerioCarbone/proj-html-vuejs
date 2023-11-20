@@ -79,5 +79,22 @@
         "Diabetes Care",
         "Pre-natal Care",
         "Ultrasound Echocardiogram"
+    ],
+    "inDepthCards": [
+        {
+            "bgColor": "bg-light-blue",
+            "cardTitle": "Emergency Care",
+            "btnStyle": "btn-lb"
+        },
+        {
+            "bgColor": "bg-blue",
+            "cardTitle": "Expert Diagnostics",
+            "btnStyle": "btn-b"
+        },
+        {
+            "bgColor": "bg-dark-blue",
+            "cardTitle": "Superb Rehabilitation",
+            "btnStyle": "btn-db"
+        }
     ]
 }
