@@ -1,6 +1,13 @@
 <script>
 import database from '../../../db.json'
 export default {
+    // props: {
+    //     item: {
+    //         type: String,
+    //         required: true
+    //     }
+
+    // },
     data() {
         return {
             showDropDown: false,
@@ -42,7 +49,7 @@ export default {
                         <li class="nav-item drop-down" @click="show()" :class="showDropDown ? 'light-blue' : ''">
                             <a href="#">
                                 Departments
-                                <span class="drop-down-icon">
+                                <span class="drop-down-icon" v-if="showDropDown">
                                     <font-awesome-icon icon="fa-solid fa-angle-down" />
                                 </span>
                                 <div>

@@ -1,7 +1,13 @@
 <script>
 import headerNavbar from './headerComponents/headerNavbar.vue';
 import headerHero from './headerComponents/headerHero.vue';
+import database from '../../db.json'
 export default {
+    data() {
+        return {
+            database
+        }
+    },
     components: {
         headerNavbar,
         headerHero

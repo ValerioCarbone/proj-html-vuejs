@@ -96,5 +96,12 @@
             "cardTitle": "Superb Rehabilitation",
             "btnStyle": "btn-db"
         }
+    ],
+    "headerMenuItems": [
+        "Home",
+        "About",
+        "Departments",
+        "Articles",
+        "Make appointment"
     ]
 }
