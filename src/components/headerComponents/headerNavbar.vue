@@ -1,27 +1,14 @@
 <script>
 import database from '../../../db.json'
+import MenuItem from './MenuItem.vue'
 export default {
-    // props: {
-    //     item: {
-    //         type: String,
-    //         required: true
-    //     }
-
-    // },
+    components: {
+        MenuItem
+    },
     data() {
         return {
             showDropDown: false,
-            database
-        }
-    },
-    methods: {
-        show() {
-            this.showDropDown = !this.showDropDown
-        }
-    },
-    computed: {
-        departments() {
-            return this.database.departments
+            database,
         }
     }
 }
@@ -34,8 +21,8 @@ export default {
                 <figure>
                     <img src="/medical_logo_1x_light.png">
                 </figure>
-                <div class="nav-menu">
-                    <ul class="nav-items">
+                <div class="nav-items">
+                    <!-- <ul class="nav-items">
                         <li class="nav-item">
                             <a href="#">
                                 Home
@@ -71,7 +58,11 @@ export default {
                                 Make appointment
                             </a>
                         </li>
-                    </ul>
+                    </ul> -->
+                    <MenuItem v-for="(item, index) in database.menu" :key="index" :item="item" />
+                    <a href="#" class="btn">
+                        Make appointment
+                    </a>
                 </div>
             </div>
         </div>
@@ -103,53 +94,14 @@ export default {
     letter-spacing: 2px;
 }
 
-.nav-item:hover {
-    color: $light-blue;
-}
-
 .btn {
     padding: 10px 24px;
     text-transform: uppercase;
-}
-
-.btn-lb {
     background-color: $light-blue;
 
     &:hover {
         color: $light-blue;
         background-color: white;
     }
-}
-
-.drop-down-icon {
-    display: inline-block;
-}
-
-.drop-down {
-    position: relative;
-}
-
-.drop-down-wrapper {
-    background-color: white;
-    padding: 6px 14px;
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 200px;
-}
-
-.drop-down-item {
-    padding: 12px 0;
-    text-transform: capitalize;
-    color: $dark-blue;
-    font-size: 14px;
-
-    &:hover {
-        color: $light-blue;
-    }
-}
-
-.light-blue {
-    color: $light-blue;
 }
 </style>

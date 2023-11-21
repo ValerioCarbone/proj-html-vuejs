@@ -73,13 +73,6 @@
             "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi nobis? Eius laboriosam labore ipsam optio sequi velit. Quo, ipsa!"
         }
     ],
-    "departments": [
-        "Cardiology",
-        "Pediatrics",
-        "Diabetes Care",
-        "Pre-natal Care",
-        "Ultrasound Echocardiogram"
-    ],
     "inDepthCards": [
         {
             "bgColor": "bg-light-blue",
@@ -97,11 +90,39 @@
             "btnStyle": "btn-db"
         }
     ],
-    "headerMenuItems": [
-        "Home",
-        "About",
-        "Departments",
-        "Articles",
-        "Make appointment"
+    "menu": [
+        {
+            "name": "Home",
+            "link": "#",
+            "items": []
+        },
+        {
+            "name": "About",
+            "link": "#",
+            "items": []
+        },
+        {
+            "name": "Departments",
+            "link": "#",
+            "items": [
+                "Cardiology",
+                "Pediatrics",
+                "Diabetes Care",
+                "Pre-natal Care",
+                "Ultrasound Echocardiogram"
+            ]
+        },
+        {
+            "name": "Articles",
+            "link": "#",
+            "items": []
+        }
+    ],
+    "departments": [
+        "Cardiology",
+        "Pediatrics",
+        "Diabetes Care",
+        "Pre-natal Care",
+        "Ultrasound Echocardiogram"
     ]
 }
