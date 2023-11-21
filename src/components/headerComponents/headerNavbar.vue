@@ -59,7 +59,7 @@ export default {
                             </a>
                         </li>
                     </ul> -->
-                    <MenuItem v-for="(item, index) in database.menu" :key="index" :item="item" />
+                    <MenuItem v-for="(currentItem, index) in database.menu" :key="index" :item="currentItem" />
                     <a href="#" class="btn">
                         Make appointment
                     </a>

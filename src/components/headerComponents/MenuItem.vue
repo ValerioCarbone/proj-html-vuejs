@@ -21,14 +21,15 @@ export default {
 </script>
 
 <template>
-    <a :href="item.link" class="nav-item drop-down" @click="show()">
+    <a :href="item.link" class="nav-item drop-down" @click="show()"
+        :class="item.items.length > 0 & showDropDown ? 'light-blue' : ''">
         {{ item.name }}
 
         <span class="drop-down-icon" v-if="item.items.length > 0 & showDropDown">
             <font-awesome-icon icon="fa-solid fa-angle-down" />
         </span>
 
-        <div v-if="item.items.length > 0 & showDropDown" :class="showDropDown ? 'light-blue' : ''">
+        <div v-if="item.items.length > 0 & showDropDown">
 
             <ul class="drop-down-wrapper">
                 <li v-for="(department, index) in item.items" :key="index" class="drop-down-item">
